@@ -1,13 +1,7 @@
-import { useState } from "react";
+import { Posts } from "./components/Posts/Posts";
 
 function App() {
-  const [count, setCount] = useState(0);
-
-  return (
-    <>
-      <h1>hello</h1>
-    </>
-  );
+  return <Posts />;
 }
 
 export default App;

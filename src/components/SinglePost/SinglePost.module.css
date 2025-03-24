@@ -1,0 +1,35 @@
+.singlePost {
+  border: 1px solid var(--main-color);
+  border-radius: 1rem;
+  padding: 10px;
+  display: grid;
+  gap: 10px;
+  width: 80%;
+  max-width: 600px;
+  cursor: pointer;
+}
+
+.openPostOuter {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.openPostInner {
+  border: 1px solid var(--main-color);
+  border-radius: 1rem;
+  background-color: white;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 80%;
+  max-width: 800px;
+  height: 60%;
+}

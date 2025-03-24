@@ -1,10 +1,11 @@
 .loader {
-  border: 5px solid #5a49f7;
+  border: 5px solid var(--main-color);
   border-bottom-color: transparent;
   border-radius: 50%;
   display: inline-block;
   box-sizing: border-box;
   animation: rotation 1s linear infinite;
+  justify-self: center;
 }
 
 @keyframes rotation {
